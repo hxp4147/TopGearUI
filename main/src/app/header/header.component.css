@@ -1,0 +1,15 @@
+.logo{
+    padding: 10px;
+}
+
+a{
+    font-size: 20px;
+}
+div{
+    font-family: Arial;
+}
+.fa-power-off{
+    padding: 25px;
+    position: relative;
+    float: right;
+}
