@@ -1,0 +1,60 @@
+.nav{
+    background-color: gold;
+    position: absolute;
+    top: 70px;
+    left: 0px;
+    font-size: 16pts;
+    width: 100%;
+    height:60px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.nav1:active { 
+    background-color: #ededed;
+    height: 60px;
+    border-top: 10px transparent;
+    border-bottom: 5px transparent;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline-block;
+    padding: 15px;
+}
+
+li a{
+    color: black;
+    text-decoration: none;
+    padding: 22px;
+}
+
+ul li a:hover,
+ul li a:focus {
+  background: #ededed;
+  
+}
+ul li a.active {
+  background: blue;
+  color: white;
+}
+
+ul li a.active::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    border-top: 20px solid blue;
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    transform: translateX(-50%);
+    
+  }
