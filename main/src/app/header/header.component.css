@@ -8,7 +8,7 @@ a{
 div{
     font-family: Arial;
 }
-.fa-power-off{
+#power{
     padding: 25px;
     position: relative;
     float: right;

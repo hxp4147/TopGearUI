@@ -1,0 +1,12 @@
+h1{
+    color: red;
+}
+nav{
+    padding-top: 6px;
+}
+#nav-tab .nav .nav-tabs{
+    position: center;
+}
+a{
+    float: right;
+}
